@@ -44,5 +44,5 @@ return array.slice (0, array.length -1)
 
 function nonDestructivelyRemoveAtIndex(array, index) {
   //hint: involves slice and spread
-  return (...array)
+  return (...array.slice, )
 }
