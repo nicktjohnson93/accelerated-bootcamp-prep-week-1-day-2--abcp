@@ -40,7 +40,7 @@ function removeElementFromEndOfArray(array) {
 return array.slice (0, array.length -1)
 }
 
-//challenge: remove and element from the middle of an array/at any given point, and return a copy of the original array, minus that element
+//challenge: remove an element from the middle of an array/at any given point, and return a copy of the original array, minus that element
 
 function nonDestructivelyRemoveAtIndex(array, index) {
   //hint: involves slice and spread
